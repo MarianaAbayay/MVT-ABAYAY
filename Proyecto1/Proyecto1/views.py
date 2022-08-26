@@ -3,7 +3,6 @@
 from django import HttpResponse
 from django.template import Context, Template
 
-
 def inicio(request):
     return HttpResponse("Bienvenidxs")
 
@@ -14,4 +13,4 @@ def familiares(request):
     contexto=Context()
     documento=plantilla.render(contexto)
     return HttpResponse(documento)
-    
+
