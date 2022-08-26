@@ -22,8 +22,8 @@ from AppFlia.views import familiar1, familiar2, familiar3
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('inicio/', inicio, name=inicio),
-    path('familiares/', familiares, name=familiares),
-    path('primerfamiliar/', familiar1, name=familiar1),
-    path('segundofamiliar/', familiar2, name=familiar2),
-    path('tercerfamiliar/',familiar3, name=familiar3 ),
+    path('familiares/', familiares, name="familiares"),
+    path('primerfamiliar/', familiar1, name="familiar1"),
+    path('segundofamiliar/', familiar2, name="familiar2"),
+    path('tercerfamiliar/',familiar3, name="familiar3"),
 ]
