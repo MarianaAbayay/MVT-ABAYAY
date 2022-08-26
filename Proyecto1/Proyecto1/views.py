@@ -1,6 +1,6 @@
 #CONTROLADOR
 
-from django import HttpResponse
+from django.shortcuts import HttpResponse
 from django.template import Context, Template
 
 def inicio(request):
