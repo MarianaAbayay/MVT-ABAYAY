@@ -7,7 +7,7 @@ def inicio(request):
     return HttpResponse("Bienvenidxs")
 
 def familiares(request):
-    mihtml=open("Proyecto1/Plantillas/template1.html")
+    mihtml=open("Proyecto1\Plantillas\template1.html")
     plantilla=Template(mihtml.read())
     mihtml.close()
     contexto=Context()
